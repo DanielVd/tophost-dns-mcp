@@ -80,12 +80,6 @@ The default transport is stdio:
 tophost-dns-mcp
 ```
 
-or:
-
-```bash
-python -m tophost_dns_mcp
-```
-
 For Streamable HTTP:
 
 ```bash
