@@ -1,6 +1,7 @@
-from __future__ import annotations
+def main() -> None:
+    from .server import main as server_main
 
-from .server import main
+    server_main()
 
 
 if __name__ == "__main__":
