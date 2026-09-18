@@ -13,7 +13,7 @@ class Settings:
     request_timeout: float = 20.0
 
     @classmethod
-    def from_env(cls) -> "Settings":
+    def from_env(cls) -> Settings:
         raw_timeout = os.getenv("TOPHOST_MCP_REQUEST_TIMEOUT", "20")
 
         try:
